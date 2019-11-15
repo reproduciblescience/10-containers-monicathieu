@@ -1,0 +1,22 @@
+Type: Compendium
+Package: mtsquirrels
+Title: Monica's Squirrels Pkg for Columbia PSYC6130
+Version: 0.0.1
+Authors@R: 
+    c(person(given = "Chris",
+           family = "Baldassano",
+           role = c("aut", "cre"),
+           email = "c.baldassano@columbia.edu"),
+      person(given = "Monica",
+           family = "Thieu",
+           role = c("aut"),
+           email = "monica.thieu@columbia.edu"))
+Description: Monica put these squirrels in a container
+License: CC0
+Depends: 
+    rmarkdown,
+    tidyverse,
+    tm,
+    topicmodels
+Encoding: UTF-8
+LazyData: true
